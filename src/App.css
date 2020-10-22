@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+}
+
+.App .fieldset {
+  padding: 15px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.App .fieldset .legend {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.App .fieldset .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.App .fieldset .form .label {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 3px;
+  background-color: #cfcfcf;
+}
+
+.App .fieldset .form .formelement {
+  margin: 15px 0;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.App .fieldset .form .submit {
+  margin: 15px 0;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #4cff2c;
+}
